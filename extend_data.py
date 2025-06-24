@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 from collections import defaultdict
-
+from collections import defaultdict
 
 def expand_training_data(data):
     # 按query分组
