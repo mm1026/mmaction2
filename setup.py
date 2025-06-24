@@ -4,8 +4,6 @@ import os.path as osp
 import shutil
 import sys
 import warnings
-from setuptools import find_packages, setup
-
 
 def readme():
     with open('README.md', encoding='utf-8') as f:
