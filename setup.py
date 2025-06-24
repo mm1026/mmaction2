@@ -1,9 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import os
 import os.path as osp
-import shutil
-import sys
-import warnings
 
 def readme():
     with open('README.md', encoding='utf-8') as f:
