@@ -2,7 +2,7 @@
 import json
 from collections import defaultdict
 from collections import defaultdict
-
+import git
 def expand_training_data(data):
     # 按query分组
     query_groups = defaultdict(list)
