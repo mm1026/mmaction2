@@ -10,10 +10,6 @@ def readme():
         content = f.read()
     return content
 
-
-version_file = 'mmaction/version.py'
-
-
 def get_version():
     with open(version_file, 'r') as f:
         exec(compile(f.read(), version_file, 'exec'))
