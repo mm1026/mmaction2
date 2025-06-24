@@ -13,5 +13,4 @@ embeddings_1 = model.encode(sentences_1,
                             )['dense_vecs']
 embeddings_2 = model.encode(sentences_2)['dense_vecs']
 similarity = embeddings_1 @ embeddings_2.T
-print(similarity)
 # [[0.6265, 0.3477], [0.3499, 0.678 ]]
